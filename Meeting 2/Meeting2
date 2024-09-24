@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+using ll = long long;
+
+int main () {
+    string name ;
+    ll Grossallary, Installment, Insurance;
+
+    cout << "Enter Your Name: ";
+    cin>> name;
+
+    cout <<"Gross Salary: ";
+    cin>> Grossallary;
+
+    cout <<"Installment: ";
+    cin>> Installment;
+
+    cout <<"Insurance: ";
+    cin>> Insurance;
+
+    ll tax_amount = 0.2*Grossallary;
+
+    ll net_salary = Grossallary - tax_amount - Installment - Insurance;
+
+    cout<<"Payslip for Employee"<<endl;
+    cout<<"--------------------"<<endl;
+    cout<<"name : ";
+    cout<<name<<'\n';
+    cout<<"tax_amount (20%): ";
+    cout<<tax_amount<<'\n';
+    cout<<"Installment: ";
+    cout<<Installment<< '\n';
+    cout<<"net_salary: ";
+    cout<<net_salary<<'\n';
+ }
