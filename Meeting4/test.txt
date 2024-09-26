@@ -1,0 +1,14 @@
+input: 5
+output: Sum: 15
+
+input: 10
+output: 55
+
+input: 15
+output: 120
+
+input: 20
+output: 210
+
+input: 25
+output: 325
