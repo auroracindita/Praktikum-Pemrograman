@@ -1,0 +1,10 @@
+Enter Your Name: Aurora
+Gross Salary: 50000
+Installment: 5000
+Insurance: 3000
+Payslip for Employee
+--------------------
+name : Aurora
+tax_amount (20%): 10000
+Installment: 5000
+net_salary: 32000

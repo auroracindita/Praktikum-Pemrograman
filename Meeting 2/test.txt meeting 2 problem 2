@@ -1,0 +1,5 @@
+input : 1 -2 1
+output : x : 1
+
+input : 1 2 5
+output : The Equation is No Solution
